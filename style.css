@@ -1,0 +1,52 @@
+/*style for the index.html file*/
+.container{
+    border: none;
+    border-top: 10px;
+    border-color: red;
+    width: 960px;
+    height: 960px;
+    /*padding: 100px;*/
+    background-color: #000000
+}
+.header{
+    border:none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color: rgb(128, 128, 128)
+}
+.nav{
+    border:none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color: rgb(128, 128, 128)
+}
+.aside{
+    float: right;
+    border:none;
+    margin-right: auto;
+    width:45%;
+    height:250px;
+    background-color: rgb(128,128,128)
+}
+.section{
+    float: left;
+    margin-left: auto;
+    border:none;
+    width:45%;
+    height:250px;
+    background-color: rgb(128,128,128)
+}
+.footer{
+    position: absolute;
+    border-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(128, 128, 128)
+}
