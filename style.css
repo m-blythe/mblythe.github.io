@@ -1,52 +1,82 @@
 /*style for the index.html file*/
-.container{
-    border: none;
-    border-top: 10px;
-    border-color: red;
-    width: 960px;
-    height: 960px;
-    /*padding: 100px;*/
+
+/*default html tags*/
+body div header nav section aside footer{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
     background-color: #000000
+    }
+.container{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        /*color: #000000;*/
+        text-align:center;
+        margin:auto;
+        padding:10px;
+        /*background-color: rgb(252, 248, 248);*/
+        width:940px;
+        overflow:hidden;
+            }
+header{
+        background-color: rgb(128, 128, 128);
+        height:100px;
+        width: 940px;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        }
+nav{
+        background-color: rgb(128, 128, 128);
+        height:100px;
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+.mid_container{
+        background-color:none;
+        height:200px;
+        margin-bottom: 5px;
+        overflow:hidden;
+                }
+section{
+        float:left;
+        background-color: rgb(128, 128, 128);
+        width:445px;
+        height:190px;
+        padding:10px;
+        }
+article{
+        color: white;   
+        position: absolute;
+        width: 425px;
+        height: 125px;
+        top: 275px;
+        left: 315px;
+        border: none;
+        background-color:rgb(0, 0, 0);
 }
-.header{
-    border:none;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    background-color: rgb(128, 128, 128)
-}
-.nav{
-    border:none;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    background-color: rgb(128, 128, 128)
-}
-.aside{
-    float: right;
-    border:none;
-    margin-right: auto;
-    width:45%;
-    height:250px;
-    background-color: rgb(128,128,128)
-}
-.section{
-    float: left;
-    margin-left: auto;
-    border:none;
-    width:45%;
-    height:250px;
-    background-color: rgb(128,128,128)
-}
-.footer{
-    position: absolute;
-    border-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border:none;
-    width: 90%;
-    height: 100px;
-    background-color: rgb(128, 128, 128)
+aside{
+        float:right;
+        background-color: rgb(128, 128, 128);  
+        width:445px;
+        height:190px;
+        padding:10px;
+        }
+footer{
+        background-color: gray;
+        height:100px;
+        width: 940px;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        }
+.border{
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+        border-style: solid;
+        border: gray;
+        background-color: gray;
 }
